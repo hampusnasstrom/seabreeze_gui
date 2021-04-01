@@ -1,0 +1,1 @@
+for /F %%i in ('dir /b *.ui') do (pyuic5 %%i -o ui_%%~ni.py)
